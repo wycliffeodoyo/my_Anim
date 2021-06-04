@@ -1,0 +1,57 @@
+@media screen and (max-width:768px) {
+    /*small*/
+    #toggle {
+        display: block;
+    }
+    ul {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(43, 40, 40, 0.8);
+        align-items: center;
+        position: relative;
+        border-radius: 3px;
+    }
+    #menu {
+        position: absolute;
+        top: 45px;
+        right: 0px;
+        z-index: 3;
+        display: none;
+    }
+    ul li a {
+        color: rgb(131, 126, 116);
+    }
+    .road {
+        bottom: -30px;
+    }
+    .city {
+        bottom: 150px;
+        z-index: 1;
+    }
+    .car {
+        bottom: 50px;
+        width: 350px;
+        left: 258px;
+    }
+    .wheels {
+        bottom: 125px;
+    }
+    .wheels img {
+        height: 60px;
+        width: 60px;
+    }
+    .back-wheel {
+        left: -136px;
+    }
+    .front-wheel {
+        left: 80px;
+    }
+}
+
+@media screen and (min-width:600px) {
+    /*medium*/
+}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:992px) {}

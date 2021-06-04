@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*navigation*/
+
+#my-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 190px;
+}
+
+.logo img:hover {
+    box-shadow: 2ps 3px 4px rgb(29, 25, 25);
+}
+
+.logo img {
+    z-index: 1;
+    padding: 3%;
+    width: 100%;
+}
+
+li a {
+    font-size: 20px;
+    font-weight: 490;
+}
+
+#toggle {
+    display: block;
+    position: relative;
+    right: 50px;
+    display: none;
+}
+
+#toggle i {
+    font-weight: bold;
+    font-size: x-large;
+    transition: all 1s;
+}
+
+#toggle i:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+ul li a {
+    transition: color 1s;
+    color: rgb(31, 27, 27);
+}
+
+ul li a:hover {
+    cursor: pointer;
+    color: rgb(62, 62, 179);
+}
+
+
+/**toggle class**/
+
+.nwtoggle {
+    display: block;
+}
